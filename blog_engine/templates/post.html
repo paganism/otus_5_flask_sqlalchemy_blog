@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block header %}
+    <h3>Post {{curr_post.title}} </h3>
+{% endblock header %}
+
+{% block content %}
+    <div class="post-text"><p><hr>{{curr_post.text}}<hr></p></div>    
+
+{% endblock %}
